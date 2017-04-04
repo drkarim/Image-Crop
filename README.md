@@ -1,4 +1,4 @@
-# Crop 3D Binage Image
+# Crop 3D Binary Image
 This repository contains code that crops a binary image in 3D NifTii, NRRD and GIPL formats. 
 
 ## Dependencies
