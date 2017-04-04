@@ -1,5 +1,5 @@
 # Crop 3D Binary Image
-This repository contains code that crops a binary image in 3D NifTii, NRRD and GIPL formats. 
+This repository contains code that crops a binary image based on its largest bounding box. It accepts 3D image files in formats such as NifTii, NRRD and GIPL. The only input required is the 3D image, the largest bounding box is computed automatically. 
 
 ## Dependencies
 Note that this program uses [MIRTK - Medical Image Registration Library](https://github.com/BioMedIA/MIRTK) 
