@@ -7,7 +7,7 @@ Note that this program uses [MIRTK - Medical Image Registration Library](https:/
 The dependencies are not great on MIRTK It is simply for accessing pixel values in the image. I envisage that the code can be easily ported into [Insight Toolkit](https://github.com/InsightSoftwareConsortium/ITK) and other imaging libraries. 
 
 ## Usage 
-The usage for the first tool ```evaluate-slice-dice``` if ``make`` installed under mirtk ``/lib/tools/``:
+The usage for the first tool ```evaluate-image-crop``` if ``make`` installed under mirtk ``/lib/tools/``:
 ```
 ./mirtk evaluate-image-crop 
      -i <input binary image 0/1> 
